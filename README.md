@@ -10,11 +10,11 @@ The Steel Toe is a 34-key split keyboard. It has the following features:
 - SplitKB puck support for tenting
 
 <!-- TODO: update pics -->
-![](./pictures/clog-v2-left-half.jpg "One Half of the Clog V2")
+![both sides of PCB](https://images.boardsource.xyz/steeltoe.png)
 
 ## How to Order
 
-The [gerber ZIP](./clog-v3.zip) has everything you'll need to get this printed.
+The [gerber ZIP](./pcb/production/gerber.zip) has everything you'll need to get this printed.
 You can order from [JLC](https://jlcpcb.com) by just uploading that ZIP archive and keeping
 the default options. I'd suggest removing the order number, otherwise they'll put
 one on the board somewhere randomly.
@@ -26,32 +26,13 @@ one on the board somewhere randomly.
 Part Name            | Quantity        | Notes                                    | Link
 --------------------:|:---------------:|:----------------------------------------:|:----
 PCB                  | 2 (halves)      |                                          | Look up hurr hurr
-Choc V1 Switches     | 34              |                                          | <https://mkultra.click/choc-switches>
-Choc Keycaps         | 34              |                                          | <https://mkultra.click/mbk-factory-colors>
-SMD Diodes           | 34              |                                          | <https://www.aliexpress.com/item/3256802562651339.html>
-Power Switches       | 2               | Technically optional                     | <https://www.digikey.com/en/products/detail/nidec-copal-electronics/CUS-12TB/1124222>
-Xiao BLE             | 2               | Not technically optional                 | <https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html>
-Small LiPo Batteries | 2               |                                          | <https://www.aliexpress.com/item/2251832610867849.html>
-Inch of Copper Wire  | 1               | Use thin and sheathed                    | Any hardware store
-MCU Sockets          | 1 strip to chop | Optional, chop into sections of 7 pins   | <https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/316-43-164-41-006000/1212147>
-MCU Socket Pins      | 28              | Optional, buy extras, these are slippery | <https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/3320-0-00-15-00-00-03-0/4147392>
+Choc V1 Switches     | 34              |                                          | <https://www.boardsource.xyz/tags/LP_switch>
+Choc Hotswaps        | 34              |                                          | <https://www.boardsource.xyz/products/Choc_Hot_Swap_Sockets>
+Choc Keycaps         | 34              |                                          | <https://www.boardsource.xyz/tags/LP_keycaps>
+Power Switches       | 2               | Technically optional                     | <https://www.boardsource.xyz/products/smd-slide-switch>
+Reset Switches       | 2               | Technically optional                     | <https://www.boardsource.xyz/products/reset-switches>
+Pro Micro Controller | 2               | Not technically optional                 | <https://www.boardsource.xyz/products/blok>
+Small LiPo Batteries | 2               | Technically optional                     | <https://www.boardsource.xyz/products/110mAh_301230r>
+MCU Sockets          | 1 strip to chop | Optional                                 | <https://www.boardsource.xyz/products/mill_max_sockets_set>
+MCU Socket Pins      | 28              | Optional                                 | <https://www.boardsource.xyz/products/pins>
 
-### Tips
-
-I'd solder the parts in this order:
-
-- Diodes
-- Power switches
-- MCU sockets/Headers that came with the Xiao's
-- MCU pins if you're [socketing](https://docs.splitkb.com/hc/en-us/articles/360011263059-How-do-I-socket-a-microcontroller-)
-- Batteries (To the +ve and -ve terminals)
-- The "bodge" wire from the +ve charging pad on the controller to the "Bdg" hole
-- Choc switches
-
-## Pictures
-
-![](./pictures/clog-v2-both-halves.jpg "The Clog V2")
-
-![](./pictures/clog-v2-tented.jpg "Tented with Pucks and Manfrotto Tripods")
-
-![](./pictures/clog-v2-logo.jpg "The Clog Logo")
